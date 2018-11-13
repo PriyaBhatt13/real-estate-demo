@@ -19,7 +19,7 @@ class App extends Component {
 
   componentDidMount(){
     this.setState({ isLoading: true });
-    fetch('http://localhost:3000/data/serverResponse.json')
+    fetch(`${window.location.origin}/data/serverResponse.json`)
     .then(response => {
       if (response.ok) {
         return response.json();
