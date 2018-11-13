@@ -1,0 +1,22 @@
+Assumption:
+
+1. Since there was no separate field for postalCode I have added one extra field, after retrieving data from serverResponse file provided in the task.
+
+2. I have added filter capability at client side.
+
+3. serverResponse.json file had few commas(,) missing. I have corrected it to make it usable.
+
+4. Since pie chart was required to be built I went ahead with using d3 to achieve the same.
+
+5. I have used core css framework mentioned in assignment . http://www.static-immobilienscout24.de/fro/core/2.3.0/documentation/html/index.html
+
+
+Steps required for production readiness, listed in priority(Functionality wise all the mentioned requirements are fulfilled)
+
+1. Filters Overlay popOver and animation UI part
+
+2. Animation of pie chart when data changes after applying filters
+
+3. Small Viewport gap between pie chart and properties list
+
+3. CI/CD integration
